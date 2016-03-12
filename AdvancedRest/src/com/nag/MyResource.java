@@ -13,7 +13,7 @@ public class MyResource {
 	@Produces(MediaType.TEXT_PLAIN)
 	public String getTest()
 	{
-		return "Hello under world !";
+		return "Hello under world !. This is a cosmetic change.";
 	}
 	
 }
